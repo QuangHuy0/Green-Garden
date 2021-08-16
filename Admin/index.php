@@ -68,7 +68,7 @@ switch ($controller) {
 		require_once('./controller/C_xuli_donhang.php');
 		break;
 		
-	
+	ggggghfgty
 	default:
 		echo "Loli";
 		break;
