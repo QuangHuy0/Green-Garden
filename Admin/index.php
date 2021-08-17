@@ -73,4 +73,4 @@ switch ($controller) {
 		echo "Loli";
 		break;
 }
-?>
+?>ggg
