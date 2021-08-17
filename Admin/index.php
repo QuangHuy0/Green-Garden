@@ -1,4 +1,4 @@
-<?php
+ghhhh<?php
 session_start();
 require('./Model/m_database.php');
 $db = new database();
