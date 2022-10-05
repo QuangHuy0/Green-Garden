@@ -1,0 +1,152 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+#Header{
+	width: 100%;
+	height: 250px;
+}
+#Header img{
+	width: 100%;
+	height: 100%;
+}
+#topl img{
+	padding-top: 10px;
+	display: block;
+	width: 150px;
+	height: 80px;
+	position: absolute;
+	right: 0px;
+	left: 0px;
+	margin: 0px auto;
+	opacity: 0.1;
+}
+.topru{
+	position: absolute;
+	padding-top: 20px;
+	padding-left: 50px;
+}
+#topr a{
+	padding-left: 20px;
+	color: white;
+	text-decoration: none;
+	font-size: 20px;
+}
+.search {
+	color: gray;
+	background: white;
+	margin-left: 20px;
+  	width: 100%;
+  	display: flex;
+  	text-align: center;
+}
+
+.searchTerm {
+  	width: 100%;
+  	border: 3px solid white;
+  	border-right: none;
+  	padding: 5px;
+  	height: 30px;
+/*  	border-radius: 5px 0 0 5px;*/
+ 	outline: none;
+
+}
+.searchButton {
+	color: gray;
+  	width: 40px;
+  	height: 30px;
+  	border: 1px solid white;
+/*  	border-radius: 5px 0 0 5px;*/
+  	background: white;
+  	text-align: center;
+  	cursor: pointer;
+  	font-size: 20px;
+}
+/*#click {
+	width: 100px;
+	height: 30px;
+}*/
+
+#MainContent{
+	width: 50%;
+	margin: auto;
+	padding-top: 50px;
+}
+.post{
+	display: block;
+}
+.post p{
+	color: gray;
+}
+.post h4{
+	color: gray;
+}
+.post a{
+	text-decoration: none;
+	color: gray;
+	float: right;
+}
+.post hr{
+	margin-top: 40px;
+}
+
+.btn{
+	background-color: #4169E1;
+	text-align: center;
+	margin: auto;
+	display: inline-block;
+  	float: right;
+  	position:relative;
+}
+#viewA .span {
+  display:inline-block;
+  padding-right:0;
+  transition:padding-right 0.5s;
+  color:white;
+}
+#Footer{
+	width: 100%;
+	height: 200px;
+	padding-top: 20px;
+	margin: auto;
+}
+.media{
+	margin: auto;
+	text-align: center;
+}
+#Footer .fa {
+  	padding: 10px;
+  	font-size: 20px;
+  	width: 40px;
+  	text-align: center;
+  	text-decoration: none;
+  	border-radius: 50%;
+  	margin-left: 15px;
+}
+.fa-facebook{
+  	background: #1C1C1C;
+  	color: #E8E8E8;
+}
+.fa-twitter{
+	background: #1C1C1C;
+  	color: #E8E8E8;
+}
+.fa-github{
+	background: #1C1C1C;
+  	color: #E8E8E8;
+}
+.copyright{
+	margin: auto;
+	text-align: center;
+	padding-top: 20px;
+}
+.copyright p{
+	color: gray;
+}
+.end{
+	margin-top: 40px;
+	height: 2px;
+	border-width:0;
+	color:gray;
+	background-color:gray
+}

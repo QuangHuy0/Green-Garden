@@ -1,0 +1,168 @@
+
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="StyleLayout.css">
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+</head>
+<body>
+<div>
+	<div id="Header">
+		<div class="row">
+			<div id="topl" class="col-md-6">
+				<img src="image/oceanlogo.jpg">
+			</div>
+			<div id="topr" class="col-md-6">
+				<div class="topru">
+				<div >
+					<a href="#">Home</a>
+					<a href="#">About</a>
+					<a href="#">Post</a>
+					<a href="#">Contact</a>
+				</div>
+				<div class="wrap">
+					<form action="" class="search" method="Post">
+						<input type="text" id="Searchbox" class="searchTerm" placeholder="search..." name="">
+						<button type="submit" id="searchbutton" class="searchButton" onclick="vclick()"><i class="fa fa-search"></i></button>
+						<p id="click"></p>
+					</form>
+				</div>
+				</div>
+			</div>
+		</div>
+		<img src="image/banner1.jpg" alt="banner1">
+	</div>
+
+
+	<div id="MainContent">
+		<div class="post">
+			<h2>Manage data in Docker</h2>
+			<h4>How to use volumes and bind mounts in Docker.</h4>
+			<p>Posted by Ocean Nguyen on May 20, 2019 - 8 mins read</p>
+			<a href="#">Edit post...</a>
+			<hr>
+		</div>
+		<div class="post">
+			<h2>How to create a Docker image</h2>
+			<h4>Easy steps to build a Docker image with Dockerfile.</h4>
+			<p>Posted by Ocean Nguyen on May 11, 2019 - 8 mins read</p>
+			<a href="#">Edit post...</a>
+			<hr>
+		</div>
+		<div class="post">
+			<h2>Manage data in Docker</h2>
+			<h4>How to use volumes and bind mounts in Docker.</h4>
+			<p>Posted by Ocean Nguyen on May 20, 2019 - 8 mins read</p>
+			<a href="#">Edit post...</a>
+			<hr>
+		</div>
+		<div class="post">
+			<h2>How to create a Docker image</h2>
+			<h4>Easy steps to build a Docker image with Dockerfile.</h4>
+			<p>Posted by Ocean Nguyen on May 11, 2019 - 8 mins read</p>
+			<a href="#">Edit post...</a>
+			<hr>
+		</div>
+		<div class="post">
+			<h2>Manage data in Docker</h2>
+			<h4>How to use volumes and bind mounts in Docker.</h4>
+			<p>Posted by Ocean Nguyen on May 20, 2019 - 8 mins read</p>
+			<a href="#">Edit post...</a>
+			<hr>
+		</div>
+		<div class="post">
+			<h2>How to create a Docker image</h2>
+			<h4>Easy steps to build a Docker image with Dockerfile.</h4>
+			<p>Posted by Ocean Nguyen on May 11, 2019 - 8 mins read</p>
+			<a href="#">Edit post...</a>
+			<hr>
+		</div>
+		<div class="post">
+			<h2>Manage data in Docker</h2>
+			<h4>How to use volumes and bind mounts in Docker.</h4>
+			<p>Posted by Ocean Nguyen on May 20, 2019 - 8 mins read</p>
+			<a href="#">Edit post...</a>
+			<hr>
+		</div>
+		<div class="post">
+			<h2>How to create a Docker image</h2>
+			<h4>Easy steps to build a Docker image with Dockerfile.</h4>
+			<p>Posted by Ocean Nguyen on May 11, 2019 - 8 mins read</p>
+			<a href="#">Edit post...</a>
+			<hr>
+		</div>
+		<div class="post">
+			<h2>Manage data in Docker</h2>
+			<h4>How to use volumes and bind mounts in Docker.</h4>
+			<p>Posted by Ocean Nguyen on May 20, 2019 - 8 mins read</p>
+			<a href="#">Edit post...</a>
+			<hr>
+		</div>
+		<div class="post">
+			<h2>Manage data in Docker</h2>
+			<h4>How to use volumes and bind mounts in Docker.</h4>
+			<p>Posted by Ocean Nguyen on May 20, 2019 - 8 mins read</p>
+			<a href="#">Edit post...</a>
+			<hr>
+		</div>
+
+		<div id="viewA">
+			<button class="btn"><span class="span">VIEW ALL POSTS -></span></button>
+		</div>
+	</div>
+
+
+	<div id="Footer">
+		<hr>
+		<div class="media">
+		<a href="#" class="fa fa-facebook"></a>
+		<a href="#" class="fa fa-twitter"></a>
+		<a href="#" class="fa fa-github"></a>
+		</div>
+		<div class="copyright">
+			<p>Copyright bla bla bla</p>
+		</div>
+		<hr class="end">
+	</div>
+</div>
+
+
+<script type="text/javascript">
+	$("#Searchbox").keypress(function(event) {
+		if(event.keyCode === 13) {
+			$("#searchbutton").click();
+		}
+	});
+	$("#searchbutton").click(function() {
+		if(document.getElementById("Searchbox").value == "")
+		{
+			alert("You must enter at least one character")
+		}
+		else{
+				document.getElementById("click").innerHTML ="Searching..."
+		}
+	})
+	// function vclick() {
+	// 	if(document.getElementById("Searchbox").value == "")
+	// 	{
+	// 		alert("You must enter at least one character")
+	// 	}
+	// 	else{
+	// 			document.getElementById("click").innerHTML ="Searching..."
+	// 	}
+	// }
+// 	function funcName() {
+//     document.getElementById("click").innerHTML ="Searching...";
+// }
+// var func = funcName();
+// var run = setInterval("func",1000)
+
+
+</script>
+</body>
+</html>
+
